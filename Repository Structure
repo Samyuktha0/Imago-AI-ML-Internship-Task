@@ -1,7 +1,6 @@
-├── data/               TASK-ML-INTERN.csv         
+├── data/ TASK-ML-INTERN.csv         
 ├── notebooks/                  
 │   ├──  ML Internship Task.ipynb
 ├── reports/                     
-│   └── report.pdf
-├── requirements.txt              
+│   └── Report.pdf             
 ├── README.md                     
