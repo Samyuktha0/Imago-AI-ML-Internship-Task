@@ -1,0 +1,26 @@
+Handling Missing Values:
+
+Choice: Imputation with the column mean.
+
+Rationale: Simple imputation ensures that no data points are lost, which is critical when dealing with smaller datasets or when data collection is costly. Mean imputation is computationally inexpensive and prevents introducing biases from arbitrary values.
+
+Trade-off: While mean imputation preserves data, it may dilute the relationship between features if missing values are heavily concentrated in a specific area.
+
+Normalization (StandardScaler):
+
+Choice: Standardized features to have zero mean and unit variance.
+
+Rationale: Ensures that all features contribute equally during dimensionality reduction and model training, preventing dominance by features with larger ranges (e.g., high reflectance in certain bands).
+
+Trade-off: Standardization can obscure the original scale of reflectance values, making raw interpretability of features more challenging.
+
+Outlier Detection:
+
+Choice: Visual inspection using box plots and retention of all data points.
+
+Rationale: Outliers were left intact because they might represent valid, rare patterns in the spectral data, which could be critical in predicting DON concentrations.
+
+Challenge: Outliers can distort model performance. A more robust imputation or alternative detection mechanism (e.g., Isolation Forest) could be explored in future iterations.
+
+Challenges Encountered:
+High dimensionality of spectral bands required careful preprocessing to avoid computational inefficiencies during modeling.
