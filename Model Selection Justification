@@ -5,3 +5,9 @@ Choice: A simple feedforward neural network with ReLU activation and dropout reg
 Rationale: Neural networks handle high-dimensional data effectively and can capture non-linear relationships in spectral data. Dropout prevents overfitting, and ReLU ensures efficient training with non-saturating gradients.
 
 Trade-off: Neural networks require more computational resources compared to traditional regression models (e.g., linear regression, decision trees). Performance heavily depends on hyperparameter tuning, which can be time-intensive.
+
+
+Challenges Encountered:
+Hyperparameter tuning was critical for achieving competitive performance metrics (e.g., adjusting the number of neurons, batch size, learning rate).
+
+Smaller dataset size could cause overfitting despite dropout and early stopping mechanisms.
