@@ -1,0 +1,20 @@
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   cd Imago-AI-ML-Internship-Task
+2. Install Required Dependencies:
+    pip install -r requirements.txt
+3. Dependencies include:
+
+numpy
+
+pandas
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+tensorflow
+4. Launch ipynb
