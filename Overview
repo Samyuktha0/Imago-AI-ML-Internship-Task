@@ -1,0 +1,14 @@
+A comprehensive project to analyze spectral reflectance data of corn samples, reduce feature dimensionality, and predict DON (Deoxynivalenol) concentration using machine learning models.
+
+Project Overview
+This repository implements:
+1. Data Exploration and Preprocessing
+   - Handling missing values, normalization, and visualizations (e.g., line plots, heatmaps).
+2. Dimensionality Reduction
+   - Utilizing Principal Component Analysis (PCA) and t-SNE to reduce feature dimensions and visualize patterns.
+3. Model Training
+   - Training a Deep Learning model (Neural Network) to predict DON concentrations.
+   - Splitting dataset into training and testing sets and optimizing hyperparameters.
+4.Model Evaluation
+   - Using regression metrics: MAE, RMSE, and R².
+   - Visualizing results with scatter plots and residual plots.
