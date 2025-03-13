@@ -1,0 +1,7 @@
+├── data/                        
+├── notebooks/                  
+│   ├── 1_ML_Internship_Task.ipynb
+├── reports/                     
+│   └── report.pdf
+├── requirements.txt              
+├── README.md                     
